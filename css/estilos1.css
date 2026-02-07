@@ -1,0 +1,312 @@
+.home {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    position: relative;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+.home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url('../images/IMG_5554.png') no-repeat center center/cover;
+    z-index: 1;
+}
+
+/* Dropdown para Portafolio en home */
+.nav-item {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(24, 21, 17, 0.95);
+    min-width: 200px;
+    padding: 15px 0;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    z-index: 1001;
+}
+
+.dropdown a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.dropdown a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #e0e0e0;
+}
+
+/* Responsive dropdown para home */
+@media (max-width: 768px) {
+    .dropdown {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        background: transparent;
+        border: none;
+        padding: 10px 0 0 20px;
+        display: none;
+    }
+    
+    .dropdown.active {
+        display: block;
+    }
+}
+
+.home::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, #181511 0%, rgba(24, 21, 17, 0.9) 100%);
+    z-index: 1;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px 0 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    flex-shrink: 0;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    transition: color 0.2s;
+    white-space: nowrap;
+}
+
+nav a:hover {
+    color: #e0e0e0;
+}
+
+nav .icono img {
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+    transition: transform 0.2s;
+}
+
+nav .icono:hover img {
+    transform: scale(1.1);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding-left: 60px;
+    position: relative;
+    z-index: 2;
+}
+
+.contenido {
+    max-width: 50%;
+    padding-right: 20px;
+}
+
+.contenido h1 {
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+    letter-spacing: 0.01em;
+    line-height: 1.2;
+}
+
+.contenido h2 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 0.8em;
+    margin: 0;
+    color: #e0e0e0;
+    text-indent: 0.8em;
+}
+
+/* Responsive para tablets */
+@media (max-width: 1100px) {
+    header {
+        padding: 30px 40px 0 40px;
+    }
+    
+    nav {
+        gap: 20px;
+    }
+    
+    main {
+        padding-left: 40px;
+    }
+    
+    .contenido h1 {
+        font-size: 2.8rem;
+    }
+    
+    .contenido h2 {
+        font-size: 1.1rem;
+        letter-spacing: 0.6em;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 20px 25px 0 25px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+    nav {
+        width: 100%;
+        justify-content: space-between;
+        gap: 15px;
+    }
+    
+    .home::before,
+    .home::after {
+        width: 100%;
+    }
+    
+    .home::after {
+        background: linear-gradient(to bottom, rgba(24, 21, 17, 0.95) 0%, rgba(24, 21, 17, 0.7) 100%);
+    }
+    
+    .home::before {
+        z-index: 1;
+    }
+    
+    .home::after {
+        z-index: 2;
+    }
+    
+    main {
+        padding: 0 25px;
+        height: calc(100vh - 80px);
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 80px;
+    }
+    
+    .contenido {
+        max-width: 100%;
+        padding-right: 0;
+    }
+    
+    .contenido h1 {
+        font-size: 2.2rem;
+        margin-bottom: 15px;
+    }
+    
+    .contenido h2 {
+        font-size: 1rem;
+        letter-spacing: 0.4em;
+        text-indent: 0.4em;
+    }
+    
+    /* Ajustar navegación para móviles */
+    nav a:not(.icono) {
+        font-size: 0.9rem;
+    }
+    
+    nav .icono img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    header {
+        padding: 15px 20px 0 20px;
+    }
+    
+    nav {
+        gap: 10px;
+    }
+    
+    main {
+        padding: 0 20px;
+        margin-top: 70px;
+    }
+    
+    .contenido h1 {
+        font-size: 1.8rem;
+    }
+    
+    .contenido h2 {
+        font-size: 0.9rem;
+        letter-spacing: 0.3em;
+    }
+    
+    nav a:not(.icono) {
+        font-size: 0.85rem;
+    }
+    
+    nav .icono img {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media (min-width: 1600px) {
+    header {
+        padding: 50px 80px 0 80px;
+    }
+    
+    main {
+        padding-left: 80px;
+    }
+    
+    .contenido h1 {
+        font-size: 4rem;
+    }
+    
+    .contenido h2 {
+        font-size: 1.4rem;
+        letter-spacing: 1em;
+    }
+}
