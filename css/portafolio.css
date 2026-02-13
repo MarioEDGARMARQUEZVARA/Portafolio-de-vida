@@ -1,6 +1,3 @@
-/* portafolio.css - CSS Completo */
-
-/* Reset y estilos base */
 * {
     margin: 0;
     padding: 0;
@@ -59,7 +56,29 @@ body {
     display: flex;
     gap: 40px;
     align-items: center;
+    justify-content: space-between;
 }
+
+.nav-social {
+    display: flex;
+    gap: 20px;
+    margin-left: 30px;
+}
+
+.nav-social-icon {
+    color: #fff;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.nav-social-icon:hover {
+    color: #FFD700;
+}
+
 
 .nav-item {
     position: relative;
@@ -308,7 +327,7 @@ body {
     }
 }
 
-/* Tablets y pantallas medianas */
+
 @media (max-width: 992px) {
     .grid {
         grid-template-columns: repeat(2, 1fr);
