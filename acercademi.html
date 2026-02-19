@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acerca de - Mario Edgar Marquez Vara</title>
+    <title data-i18n="about-title">Acerca de - Mario Edgar Marquez Vara</title>
     <link rel="stylesheet" href="css/acercademi.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script type="module" src="js/main.js"></script>
@@ -14,19 +14,20 @@
             <a href="home.html" class="logo">MEMV</a>
             <nav class="nav">
                 <div class="nav-item">
-                    <a href="portafolio.html" class="nav-link">Portafolio</a>
+                    <a href="portafolio.html" class="nav-link" data-i18n="nav-portafolio">Portafolio</a>
                     <div class="dropdown">
-                        <a href="experiencias.html">Experiencias</a>
-                        <a href="conocimientos.html">Conocimientos</a>
-                        <a href="proyectos.html">Proyectos</a>
+                        <a href="experiencias.html" data-i18n="nav-experiencias">Experiencias</a>
+                        <a href="conocimientos.html" data-i18n="nav-conocimientos">Conocimientos</a>
+                        <a href="proyectos.html" data-i18n="nav-proyectos">Proyectos</a>
                     </div>
                 </div>
-                <a href="acercademi.html" class="nav-link active">Acerca de</a>
-                <a href="contacto.html" class="nav-link">Contacto</a>
+                <a href="acercademi.html" class="nav-link active" data-i18n="nav-acercade">Acerca de</a>
+                <a href="contacto.html" class="nav-link" data-i18n="nav-contacto">Contacto</a>
                 <div class="nav-social">
                     <a href="https://www.facebook.com/mario.marquesvara/" class="nav-social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                     <a href="https://www.instagram.com/mario_edgar_marquez_vara/" class="nav-social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                 </div>
+                <div class="language-toggle-container"></div>
             </nav>
         </div>
     </header>
@@ -34,26 +35,31 @@
     <main class="main">
         <div class="container">
             <section class="about-section">
-                <h1 class="about-title">Biografía</h1>
-                
+                <h1 class="about-title" data-i18n="about-title">Biografía</h1>
+
                 <div class="bio-content">
-                    <p class="bio-text">
-                        Mi nombre es Mario Edgar Marquez Vara, tengo 22 años y actualmente soy egresado de la carrera de Ingenieria en Sistemas Computacionales en el Instituto Tecnologico Superior de Teziutlan, Puebla. Naci en Teziutlán, Puebla un 10 de octubre de 2003. Soy una persona apasionada por la tecnología del futuro y el desarrollo de software, siempre buscando aprender y mejorar mis habilidades en el campo de la programación. 
+                    <p class="bio-text" data-i18n="about-text-1">
+                        Mi nombre es Mario Edgar Marquez Vara, tengo 22 años y actualmente soy egresado de la carrera de
+                        Ingenieria en Sistemas Computacionales en el Instituto Tecnologico Superior de Teziutlan,
+                        Puebla. Naci en Teziutlán, Puebla un 10 de octubre de 2003. Soy una persona apasionada por la
+                        tecnología del futuro y el desarrollo de software, siempre buscando aprender y mejorar mis
+                        habilidades en el campo de la programación.
                     </p>
-                    
-                    <p class="bio-text">
-                        Actualmente me encuentro en búsqueda de oportunidades laborales para aplicar mis conocimientos y seguir creciendo profesionalmente. Me considero una persona proactiva, con habilidades de trabajo en equipo y siempre dispuesto a enfrentar nuevos desafíos. Mi objetivo es contribuir al desarrollo de soluciones innovadoras y eficientes en el ámbito tecnológico. Actualmente me es imposible viajar a otros paises o estados por esa razon mi prioridad son los trabajos remotos.
+
+                    <p class="bio-text" data-i18n="about-text-2">
+                        Actualmente me encuentro en búsqueda de oportunidades laborales para aplicar mis conocimientos y
+                        seguir creciendo profesionalmente. Me considero una persona proactiva, con habilidades de
+                        trabajo en equipo y siempre dispuesto a enfrentar nuevos desafíos. Mi objetivo es contribuir al
+                        desarrollo de soluciones innovadoras y eficientes en el ámbito tecnológico. Actualmente me es
+                        imposible viajar a otros paises o estados por esa razon mi prioridad son los trabajos remotos.
                     </p>
                 </div>
 
                 <div class="social-links">
-                    <a href="#" class="social-icon" aria-label="Facebook">
+                    <a href="https://www.facebook.com/mario.marquesvara/" class="social-icon" aria-label="Facebook">
                         <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="#" class="social-icon" aria-label="Twitter">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#" class="social-icon" aria-label="LinkedIn">
+                    <a href="https://www.linkedin.com/in/mario-edgar-marquez-vara-398035310/" class="social-icon" aria-label="LinkedIn">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
                 </div>
@@ -63,7 +69,7 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Mario Edgar Marquez Vara. Todos los derechos reservados.</p>
+            <p>&copy; 2026 Mario Edgar Marquez Vara. <span data-i18n="footer-rights">Todos los derechos reservados.</span></p>
         </div>
     </footer>
 </body>

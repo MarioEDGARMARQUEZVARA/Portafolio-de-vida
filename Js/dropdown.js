@@ -18,7 +18,6 @@ export function initDropdown() {
     }
 }
 
-// Para móviles - toggle del dropdown
 export function initMobileDropdown() {
     const portfolioLink = document.querySelector('.nav-item .nav-link');
     const dropdown = document.querySelector('.dropdown');
@@ -30,36 +29,3 @@ export function initMobileDropdown() {
         });
     }
 }
-// js/dropdown.js - Agregar esta función
-export function setActiveLinks() {
-    const currentPage = window.location.pathname.split('/').pop();
-    const navLinks = document.querySelectorAll('.nav-link, .dropdown a');
-    
-    navLinks.forEach(link => {
-        const linkPage = link.getAttribute('href');
-        if (linkPage && linkPage === currentPage) {
-            link.classList.add('active');
-        } else {
-            link.classList.remove('active');
-        }
-    });
-}
-
-// import { initDropdown, initMobileDropdown, setActiveLinks } from './dropdown.js';
-// import { initPortfolioEffects, initSmoothScroll } from './portfolio-effects.js';
-
-// document.addEventListener('DOMContentLoaded', function() {
-//     initDropdown();
-//     setActiveLinks(); // <-- Agregar esta línea
-    
-//     if (document.querySelector('.portfolio-item')) {
-//         initPortfolioEffects();
-//     }
-    
-//     initSmoothScroll();
-//     initMobileDropdown();
-    
-//     window.addEventListener('resize', function() {
-//         initMobileDropdown();
-//     });
-// });

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Experiencias - Mario Edgar Marquez Vara</title>
+    <title data-i18n="exp-title">Experiencias - Mario Edgar Marquez Vara</title>
     <link rel="stylesheet" href="css/contenido.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script type="module" src="js/main.js"></script>
@@ -14,19 +14,20 @@
             <a href="home.html" class="logo">MEMV</a>
             <nav class="nav">
                 <div class="nav-item">
-                    <a href="portafolio.html" class="nav-link">Portafolio</a>
+                    <a href="portafolio.html" class="nav-link" data-i18n="nav-portafolio">Portafolio</a>
                     <div class="dropdown">
-                        <a href="experiencias.html" class="active">Experiencias</a>
-                        <a href="conocimientos.html">Conocimientos</a>
-                        <a href="proyectos.html">Proyectos</a>
+                        <a href="experiencias.html" class="active" data-i18n="nav-experiencias">Experiencias</a>
+                        <a href="conocimientos.html" data-i18n="nav-conocimientos">Conocimientos</a>
+                        <a href="proyectos.html" data-i18n="nav-proyectos">Proyectos</a>
                     </div>
                 </div>
-                <a href="acercademi.html" class="nav-link">Acerca de</a>
-                <a href="contacto.html" class="nav-link">Contacto</a>
+                <a href="acercademi.html" class="nav-link" data-i18n="nav-acercade">Acerca de</a>
+                <a href="contacto.html" class="nav-link" data-i18n="nav-contacto">Contacto</a>
                 <div class="nav-social">
                     <a href="https://www.facebook.com/mario.marquesvara/" class="nav-social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                     <a href="https://www.instagram.com/mario_edgar_marquez_vara/" class="nav-social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                 </div>
+                <div class="language-toggle-container"></div>
             </nav>
         </div>
     </header>
@@ -34,51 +35,73 @@
     <main class="main">
         <div class="container">
             <section class="hero">
-                <h1 class="hero-title">Experiencias</h1>
-                <h2 class="hero-subtitle">Mi trayectoria profesional</h2>
-                <p class="item-description" style="max-width: 800px; margin: 0 auto;">
-                    A lo largo de mi carrera, he tenido la oportunidad de asistir en diversos eventos que me han aportado diversas experiencias y roles que han enriquecido mi experiencia y desarrollo profesional ademas de la manera en la que pienso y soy.
+                <h1 class="hero-title" data-i18n="exp-title">Experiencias</h1>
+                <h2 class="hero-subtitle" data-i18n="exp-subtitle">Mi trayectoria profesional</h2>
+                <p class="item-description" data-i18n="exp-description" style="max-width: 800px; margin: 0 auto;">
+                    A lo largo de mi carrera, he tenido la oportunidad de asistir en diversos eventos que me han
+                    aportado diversas experiencias y roles que han enriquecido mi experiencia y desarrollo profesional
+                    ademas de la manera en la que pienso y soy.
                 </p>
             </section>
-
-            <!-- Timeline de experiencias -->
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="content-item">
-                        <h3 class="item-title">Participación en un torneo de ajedrez estatal</h3>
-                        <h4 class="item-subtitle">Puebla, Puebla | Mayo 2017</h4>
-                        <p class="item-description">
-                        Participé en un torneo de ajedrez local con mi equipo el cual conseguimos puntuación perfecta, pasando asi a ala etapa estatal la cual fue un logro historico de la escuela donde estudie mi secundaria ya que nunca habia sucedido eso y gracias a esa experiencia genere un pensamiento a futuro y autonomo ademas de mejorar mi actitud el cual me ayudo a concluir mis estudios de manera sobresaliente.
+                        <h3 class="item-title" data-i18n="exp-1-title">Participación en un intercambio virtual de estudiantes con EAN</h3>
+                        <h4 class="item-subtitle" data-i18n="exp-1-subtitle">Bogota, Colombia | 29/04/24 - 10/06/2024</h4>
+                        <p class="item-description" data-i18n="exp-1-desc">
+                            Participé en un intercambio virtual de estudiantes con la Escuela de Administración de
+                            Negocios (EAN) en Bogotá, Colombia, donde colaboré en proyectos con un grupo de colombianos
+                            y amplié mi perspectiva académica y cultural.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="content-item">
+                        <h3 class="item-title" data-i18n="exp-2-title">Participación en Coding Cup</h3>
+                        <h4 class="item-subtitle" data-i18n="exp-2-subtitle">Teziutlán, Puebla | Septiembre 2024</h4>
+                        <p class="item-description" data-i18n="exp-2-desc">
+                            Participé en la Coding Cup, un torneo de programación organizado por el TecNM, donde competí
+                            con otros estudiantes de diferentes tecnológicos en desafíos de codificación y resolución de
+                            problemas, mejorando mis habilidades técnicas y de trabajo en equipo.
                         </p>
                     </div>
                 </div>
 
                 <div class="timeline-item">
                     <div class="content-item">
-                        <h3 class="item-title">Participación en un intercambio virtual de estudiantes con EAN</h3>
-                        <h4 class="item-subtitle">Bogota, Colombia | 29/04/24 - 10/06/2024</h4>
-                        <p class="item-description">
-                            Participé en un intercambio virtual de estudiantes con la Escuela de Administración de Negocios (EAN) en Bogotá, Colombia, donde colaboré en proyectos con un grupo de colombianos y amplié mi perspectiva académica y cultural.
+                        <h3 class="item-title" data-i18n="exp-3-title">Participación en exposición de proyectos primera vez</h3>
+                        <h4 class="item-subtitle" data-i18n="exp-3-subtitle">Teziutlán, Puebla | Mayo 2024</h4>
+                        <p class="item-description" data-i18n="exp-3-desc">
+                            Exposición de un intreprete por medio de expresiones regulares en java para mejorar la
+                            ortografia de niños de primaria. Fue mi primera vez exponiendo un proyecto y me ayudo a
+                            mejorar mis habilidades de comunicación y presentación, ademas de compartir el trabajo con
+                            otros estudiantes y profesores. Todo esto dentro del mismo instituto
                         </p>
                     </div>
                 </div>
-
                 <div class="timeline-item">
                     <div class="content-item">
-                        <h3 class="item-title">Participación en Coding Cup</h3>
-                        <h4 class="item-subtitle">Teziutlán, Puebla | Septiembre 2024</h4>
-                        <p class="item-description">
-                            Participé en la Coding Cup, un torneo de programación organizado por el TecNM, donde competí con otros estudiantes de diferentes tecnológicos en desafíos de codificación y resolución de problemas, mejorando mis habilidades técnicas y de trabajo en equipo.
+                        <h3 class="item-title" data-i18n="exp-4-title">Participación en exposición de proyectos segunda vez</h3>
+                        <h4 class="item-subtitle" data-i18n="exp-4-subtitle">Teziutlán, Puebla | Septiembre 2024</h4>
+                        <p class="item-description" data-i18n="exp-4-desc">
+                            Exposicion de una aplicación web para la gestion de residuos del plátano para reducir la
+                            contaminación del suelo por medio de spring boot.Esto se llevo a cabo dentro de las
+                            instalaciones del ITST. Fue una experiencia enriquecedora que me permitió compartir el
+                            proyecto con la comunidad académica y recibir retroalimentación valiosa para su mejora.
                         </p>
                     </div>
                 </div>
-
                 <div class="timeline-item">
                     <div class="content-item">
-                        <h3 class="item-title">Participación en exposición de proyectos</h3>
-                        <h4 class="item-subtitle">Teziutlán, Puebla | 2021 - 2025</h4>
-                        <p class="item-description">
-                            Trabajé con diversos docentes en proyectos de investigación y desarrollo tecnológico tanto webs como móviles , presentando nuestros resultados en exposiciones académicas y ferias de ciencia, lo que me permitió aplicar mis conocimientos en situaciones reales y recibir retroalimentación constructiva.
+                        <h3 class="item-title" data-i18n="exp-5-title">Participación en exposición de proyectos en la Casa de la cultura</h3>
+                        <h4 class="item-subtitle" data-i18n="exp-5-subtitle">Teziutlán, Puebla | Mayo 2025</h4>
+                        <p class="item-description" data-i18n="exp-5-desc">
+                            Exposición de un proyecto de una aplicación móvil para hacer recetas con los ingredientes
+                            disponibles en el hogar o ala mano por medio de indentificación con la ayuda de un modelo de
+                            IA entrenado con un diccionario de datos en python. Esta exposición se llevó a cabo en la
+                            Casa de la Cultura de Teziutlán, lo que me permitió compartir el proyecto con un público más
+                            amplio y diverso, incluyendo a miembros de la comunidad local, lo que enriqueció aún más la
+                            experiencia y el impacto del proyecto.
                         </p>
                     </div>
                 </div>
@@ -88,7 +111,7 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Mario Edgar Marquez Vara. Todos los derechos reservados.</p>
+            <p>&copy; 2026 Mario Edgar Marquez Vara. <span data-i18n="footer-rights">Todos los derechos reservados.</span></p>
         </div>
     </footer>
 </body>

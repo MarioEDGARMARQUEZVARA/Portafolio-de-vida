@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conocimientos - Mario Edgar Marquez Vara</title>
+    <title data-i18n="know-title">Conocimientos - Mario Edgar Marquez Vara</title>
     <link rel="stylesheet" href="css/contenido.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script type="module" src="js/main.js"></script>
@@ -16,20 +16,22 @@
             <a href="home.html" class="logo">MEMV</a>
             <nav class="nav">
                 <div class="nav-item">
-                    <a href="portafolio.html" class="nav-link">Portafolio</a>
+                    <a href="portafolio.html" class="nav-link" data-i18n="nav-portafolio">Portafolio</a>
                     <div class="dropdown">
-                        <a href="experiencias.html">Experiencias</a>
-                        <a href="conocimientos.html" class="active">Conocimientos</a>
-                        <a href="proyectos.html">Proyectos</a>
+                        <a href="experiencias.html" data-i18n="nav-experiencias">Experiencias</a>
+                        <a href="conocimientos.html" class="active" data-i18n="nav-conocimientos">Conocimientos</a>
+                        <a href="proyectos.html" data-i18n="nav-proyectos">Proyectos</a>
                     </div>
                 </div>
-                <a href="acercademi.html" class="nav-link">Acerca de</a>
-                <a href="contacto.html" class="nav-link">Contacto</a>
-                    <div class="nav-social">
-                        <p></p>
-                        <a href="https://www.facebook.com/mario.marquesvara/" class="nav-social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/mario_edgar_marquez_vara/" class="nav-social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    </div>
+                <a href="acercademi.html" class="nav-link" data-i18n="nav-acercade">Acerca de</a>
+                <a href="contacto.html" class="nav-link" data-i18n="nav-contacto">Contacto</a>
+                <div class="nav-social">
+                    <a href="https://www.facebook.com/mario.marquesvara/" class="nav-social-icon"
+                        aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/mario_edgar_marquez_vara/" class="nav-social-icon"
+                        aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="language-toggle-container"></div>
             </nav>
         </div>
     </header>
@@ -37,553 +39,808 @@
     <main class="main">
         <div class="container">
             <section class="hero">
-                <h1 class="hero-title">Conocimientos</h1>
-                <h2 class="hero-subtitle">Habilidades y competencias</h2>
-                <p class="item-description" style="max-width: 800px; margin: 0 auto;">
+                <h1 class="hero-title" data-i18n="know-title">Conocimientos</h1>
+                <h2 class="hero-subtitle" data-i18n="know-subtitle">Habilidades y competencias</h2>
+                <p class="item-description" data-i18n="know-description">
                     Un resumen de mis habilidades técnicas y blandas, adquiridas a través de años de estudio y formación
                     continua en el ITST.
                 </p>
             </section>
 
             <div class="skills-grid">
+                <!-- Diseño Gráfico -->
                 <div class="skill-category">
-                    <h3 class="item-title">Diseño Gráfico</h3>
+                    <h3 class="item-title" data-i18n="know-graphic-design">Diseño Gráfico</h3>
                     <div class="skill-header">
-                        <span class="skill-header-left">Concepto</span>
-                        <span class="skill-header-right">Dominio</span>
+                        <span class="skill-header-left" data-i18n="know-concept">Concepto</span>
+                        <span class="skill-header-center" data-i18n="know-level">Nivel</span>
+                        <span class="skill-header-right" data-i18n="know-mastery">Dominio</span>
                     </div>
                     <ul class="skill-list">
                         <li>
                             <span class="skill-name">Adobe Photoshop</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 95%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 95%"></div>
+                                </div>
+                                <span class="skill-percentage">95%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Adobe Illustrator</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Adobe InDesign</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 85%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 85%"></div>
+                                </div>
+                                <span class="skill-percentage">85%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Figma</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Inkscape</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Canva</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 100%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="skill-percentage">100%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Pics Art</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 100%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="skill-percentage">100%</span>
+                            </div>
+                        </li>
+                         <li>
+                            <span class="skill-name">Freecad</span>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 70%"></div>
+                                </div>
+                                <span class="skill-percentage">70%</span>
                             </div>
                         </li>
                     </ul>
                 </div>
 
+                <!-- Metodologías de desarrollo -->
                 <div class="skill-category">
-                    <h3 class="item-title">Metodologías de desarrollo</h3>
+                    <h3 class="item-title" data-i18n="know-methodologies">Metodologías de desarrollo</h3>
                     <div class="skill-header">
-                        <span class="skill-header-left">Concepto</span>
-                        <span class="skill-header-right">Dominio</span>
+                        <span class="skill-header-left" data-i18n="know-concept">Concepto</span>
+                        <span class="skill-header-center" data-i18n="know-level">Nivel</span>
+                        <span class="skill-header-right" data-i18n="know-mastery">Dominio</span>
                     </div>
                     <ul class="skill-list">
                         <li>
                             <span class="skill-name">OHDM</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 95%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 95%"></div>
+                                </div>
+                                <span class="skill-percentage">95%</span>
                             </div>
                         </li>
                         <li>
-                            <span class="skill-name">Metodología Scrum</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 70%"></div>
+                            <span class="skill-name">Scrum</span>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 80%"></div>
+                                </div>
+                                <span class="skill-percentage">80%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Mobile-D</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 95%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 95%"></div>
+                                </div>
+                                <span class="skill-percentage">95%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Agile</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 65%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 65%"></div>
+                                </div>
+                                <span class="skill-percentage">65%</span>
                             </div>
                         </li>
                         <li>
-                            <span class="skill-name">Cascada</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 80%"></div>
+                            <span class="skill-name" data-i18n="skill-waterfall">Cascada</span>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 80%"></div>
+                                </div>
+                                <span class="skill-percentage">80%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Kanban</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 85%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 85%"></div>
+                                </div>
+                                <span class="skill-percentage">85%</span>
                             </div>
                         </li>
                     </ul>
                 </div>
-
                 <div class="skill-category">
-                    <h3 class="item-title">Desarrollo Web</h3>
+                    <h3 class="item-title" data-i18n="know-webdev">Desarrollo Web</h3>
                     <div class="skill-header">
-                        <span class="skill-header-left">Concepto</span>
-                        <span class="skill-header-right">Dominio</span>
+                        <span class="skill-header-left" data-i18n="know-concept">Concepto</span>
+                        <span class="skill-header-center" data-i18n="know-level">Nivel</span>
+                        <span class="skill-header-right" data-i18n="know-mastery">Dominio</span>
                     </div>
                     <ul class="skill-list">
                         <li>
                             <span class="skill-name">HTML5 & CSS3</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">JavaScript</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 95%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 95%"></div>
+                                </div>
+                                <span class="skill-percentage">95%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Angular</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 80%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 80%"></div>
+                                </div>
+                                <span class="skill-percentage">80%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Responsive Design</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 95%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 95%"></div>
+                                </div>
+                                <span class="skill-percentage">95%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Spring Boot</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 95%"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="skill-name">.NET</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 75%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 95%"></div>
+                                </div>
+                                <span class="skill-percentage">95%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">C</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
                         <li>
-                        <span class="skill-name">C++</span>
-                        <div class="skill-level">
-                            <div class="skill-level-fill" style="width: 90%"></div>
-                        </div>
+                            <span class="skill-name">C++</span>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
                         </li>
                         <li>
                             <span class="skill-name">C#</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 95%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 95%"></div>
+                                </div>
+                                <span class="skill-percentage">95%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Java</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 85%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 85%"></div>
+                                </div>
+                                <span class="skill-percentage">85%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">TypeScript</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 70%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 80%"></div>
+                                </div>
+                                <span class="skill-percentage">80%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">SQL</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 100%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="skill-percentage">100%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">NoSQL</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">PHP</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Python</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width:90%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
+
                         <li>
-                            <span class="skill-name">Bootsrap</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 100%"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="skill-name">Microservicios</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <span class="skill-name" data-i18n="skill-micro">Microservicios</span>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Postman</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
-                            <li>
+                        <li>
                             <span class="skill-name">RESTful</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 100%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="skill-percentage">100%</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">React</span>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 95%"></div>
+                                </div>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                        </li>
+                         <li>
+                            <span class="skill-name">Express</span>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 80%"></div>
+                                </div>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                        </li>
+                         <li>
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
                     </ul>
                 </div>
 
                 <div class="skill-category">
-                    <h3 class="item-title">Habilidades Blandas</h3>
+                    <h3 class="item-title" data-i18n="know-softskills">Habilidades Blandas</h3>
                     <div class="skill-header">
-                        <span class="skill-header-left">Concepto</span>
-                        <span class="skill-header-right">Dominio</span>
+                        <span class="skill-header-left" data-i18n="know-concept">Concepto</span>
+                        <span class="skill-header-center" data-i18n="know-level">Nivel</span>
+                        <span class="skill-header-right" data-i18n="know-mastery">Dominio</span>
                     </div>
                     <ul class="skill-list">
                         <li>
-                            <span class="skill-name">Trabajo en Equipo</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 95%"></div>
+                            <span class="skill-name" data-i18n="skill-team">Trabajo en Equipo</span>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 95%"></div>
+                                </div>
+                                <span class="skill-percentage">95%</span>
                             </div>
                         </li>
                         <li>
-                            <span class="skill-name">Comunicación</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <span class="skill-name" data-i18n="skill-comm">Comunicación</span>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
                         <li>
-                            <span class="skill-name">Gestión de Proyectos</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 85%"></div>
+                            <span class="skill-name" data-i18n="skill-time">Gestión del tiempo y organización</span>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="skill-percentage">100%</span>
                             </div>
                         </li>
                         <li>
-                            <span class="skill-name">Creatividad</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 65%"></div>
+                            <span class="skill-name" data-i18n="skill-creativity">Creatividad</span>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 65%"></div>
+                                </div>
+                                <span class="skill-percentage">65%</span>
                             </div>
                         </li>
                         <li>
-                            <span class="skill-name">Comunicación efectiva</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 95%"></div>
+                            <span class="skill-name" data-i18n="skill-effectivecomm">Comunicación efectiva</span>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 95%"></div>
+                                </div>
+                                <span class="skill-percentage">95%</span>
                             </div>
                         </li>
                         <li>
-                            <span class="skill-name">Adaptabilidad y flexibilidad</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 95%"></div>
+                            <span class="skill-name" data-i18n="skill-adapt">Adaptabilidad y flexibilidad</span>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 95%"></div>
+                                </div>
+                                <span class="skill-percentage">95%</span>
                             </div>
                         </li>
                         <li>
-                            <span class="skill-name">Inteligencia emocional y empatía</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 100%"></div>
+                            <span class="skill-name" data-i18n="skill-emotional">Inteligencia emocional y empatía</span>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="skill-percentage">100%</span>
                             </div>
                         </li>
                         <li>
-                            <span class="skill-name">Gestión del tiempo y organización</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <span class="skill-name" data-i18n="skill-leadership">Liderazgo y motivación</span>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 80%"></div>
+                                </div>
+                                <span class="skill-percentage">80%</span>
                             </div>
                         </li>
                         <li>
-                            <span class="skill-name">Liderazgo y motivación</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 80%"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="skill-name">Ética de trabajo y responsabilidad</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 100%"></div>
+                            <span class="skill-name" data-i18n="skill-ethics">Ética de trabajo y responsabilidad</span>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="skill-percentage">100%</span>
                             </div>
                         </li>
                     </ul>
                 </div>
+
                 <div class="skill-category">
-                    <h3 class="item-title">Programación Móvil</h3>
+                    <h3 class="item-title" data-i18n="know-mobiledev">Programación Móvil</h3>
                     <div class="skill-header">
-                        <span class="skill-header-left">Concepto</span>
-                        <span class="skill-header-right">Dominio</span>
+                        <span class="skill-header-left" data-i18n="know-concept">Concepto</span>
+                        <span class="skill-header-center" data-i18n="know-level">Nivel</span>
+                        <span class="skill-header-right" data-i18n="know-mastery">Dominio</span>
                     </div>
                     <ul class="skill-list">
                         <li>
                             <span class="skill-name">Dart</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Flutter</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="skill-name">Dart</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="skill-name">Bootstrap</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="skill-name">Firebase Authentication</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 100%"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="skill-name">Cloud Firebase</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
                     </ul>
                 </div>
+
+                <!-- IDEs -->
                 <div class="skill-category">
-                    <h3 class="item-title">IDEs</h3>
+                    <h3 class="item-title" data-i18n="know-IDEs">IDEs</h3>
                     <div class="skill-header">
-                        <span class="skill-header-left">Concepto</span>
-                        <span class="skill-header-right">Dominio</span>
+                        <span class="skill-header-left" data-i18n="know-concept">Concepto</span>
+                        <span class="skill-header-center" data-i18n="know-level">Nivel</span>
+                        <span class="skill-header-right" data-i18n="know-mastery">Dominio</span>
                     </div>
                     <ul class="skill-list">
                         <li>
                             <span class="skill-name">Visual Studio Code</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 100%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="skill-percentage">100%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">IntelliJ IDEA</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Apache NetBeans</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">PyCharm</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Arduino IDE</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
-
                     </ul>
                 </div>
+
+                <!-- Gestores de Bases de Datos -->
                 <div class="skill-category">
-                    <h3 class="item-title">Gestores de Bases de Datos</h3>
+                    <h3 class="item-title" data-i18n="know-databases">Gestores de Bases de Datos</h3>
                     <div class="skill-header">
-                        <span class="skill-header-left">Concepto</span>
-                        <span class="skill-header-right">Dominio</span>
+                        <span class="skill-header-left" data-i18n="know-concept">Concepto</span>
+                        <span class="skill-header-center" data-i18n="know-level">Nivel</span>
+                        <span class="skill-header-right" data-i18n="know-mastery">Dominio</span>
                     </div>
                     <ul class="skill-list">
                         <li>
                             <span class="skill-name">SQL Server</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 100%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="skill-percentage">100%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">MongoDB</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">PostgreSQL</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">MySQL</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
-
                     </ul>
                 </div>
+
+                <!-- Otros -->
                 <div class="skill-category">
-                    <h3 class="item-title">Otros</h3>
+                    <h3 class="item-title" data-i18n="know-others">Otros</h3>
                     <div class="skill-header">
-                        <span class="skill-header-left">Concepto</span>
-                        <span class="skill-header-right">Dominio</span>
+                        <span class="skill-header-left" data-i18n="know-concept">Concepto</span>
+                        <span class="skill-header-center" data-i18n="know-level">Nivel</span>
+                        <span class="skill-header-right" data-i18n="know-mastery">Dominio</span>
                     </div>
                     <ul class="skill-list">
                         <li>
                             <span class="skill-name">Word</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 100%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="skill-percentage">100%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">PowerPoint</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Excel</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 100%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="skill-percentage">100%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Outlook</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 100%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="skill-percentage">100%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Gmail</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 100%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="skill-percentage">100%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Docker</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Render</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 80%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 80%"></div>
+                                </div>
+                                <span class="skill-percentage">80%</span>
                             </div>
                         </li>
                         <li>
-                            <span class="skill-name">Virtualización</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <span class="skill-name" data-i18n="skill-virt">Virtualización</span>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Windows</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 100%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="skill-percentage">100%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Linux</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Ubuntu</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
                         <li>
-                            <span class="skill-name">Inglés</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 80%"></div>
+                            <span class="skill-name" data-i18n="skill-english">Inglés</span>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 80%"></div>
+                                </div>
+                                <span class="skill-percentage">80%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">Prolog</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 70%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 70%"></div>
+                                </div>
+                                <span class="skill-percentage">70%</span>
                             </div>
                         </li>
                         <li>
-                            <span class="skill-name">Arquitectura de computadoras</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <span class="skill-name" data-i18n="skill-arch">Arquitectura de computadoras</span>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Firebase Authentication</span>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="skill-percentage">100%</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Cloud Firebase</span>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">.NET</span>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name" data-i18n="skill-projmgmgt">Gestión de Proyectos</span>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 85%"></div>
+                                </div>
+                                <span class="skill-percentage">85%</span>
                             </div>
                         </li>
                     </ul>
                 </div>
+
+                <!-- Protocolos de seguridad -->
                 <div class="skill-category">
-                    <h3 class="item-title">Protocolos de seguridad</h3>
+                    <h3 class="item-title" data-i18n="know-security">Protocolos de seguridad</h3>
                     <div class="skill-header">
-                        <span class="skill-header-left">Concepto</span>
-                        <span class="skill-header-right">Dominio</span>
+                        <span class="skill-header-left" data-i18n="know-concept">Concepto</span>
+                        <span class="skill-header-center" data-i18n="know-level">Nivel</span>
+                        <span class="skill-header-right" data-i18n="know-mastery">Dominio</span>
                     </div>
                     <ul class="skill-list">
                         <li>
                             <span class="skill-name">HTTPS</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 100%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="skill-percentage">100%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">SSH</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 90%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 90%"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">FTP</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 50%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 50%"></div>
+                                </div>
+                                <span class="skill-percentage">50%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">TLS</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 40%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 40%"></div>
+                                </div>
+                                <span class="skill-percentage">40%</span>
                             </div>
                         </li>
                         <li>
                             <span class="skill-name">VPN</span>
-                            <div class="skill-level">
-                                <div class="skill-level-fill" style="width: 40%"></div>
+                            <div class="skill-level-container">
+                                <div class="skill-level">
+                                    <div class="skill-level-fill" style="width: 40%"></div>
+                                </div>
+                                <span class="skill-percentage">40%</span>
                             </div>
                         </li>
                     </ul>
@@ -598,5 +855,4 @@
         </div>
     </footer>
 </body>
-
 </html>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyectos - Mario Edgar Marquez Vara</title>
+    <title data-i18n="proj-title">Proyectos - Mario Edgar Marquez Vara</title>
     <link rel="stylesheet" href="css/contenido.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script type="module" src="js/main.js"></script>
@@ -14,19 +14,20 @@
             <a href="home.html" class="logo">MEMV</a>
             <nav class="nav">
                 <div class="nav-item">
-                    <a href="portafolio.html" class="nav-link">Portafolio</a>
+                    <a href="portafolio.html" class="nav-link" data-i18n="nav-portafolio">Portafolio</a>
                     <div class="dropdown">
-                        <a href="experiencias.html">Experiencias</a>
-                        <a href="conocimientos.html">Conocimientos</a>
-                        <a href="proyectos.html" class="active">Proyectos</a>
+                        <a href="experiencias.html" data-i18n="nav-experiencias">Experiencias</a>
+                        <a href="conocimientos.html" data-i18n="nav-conocimientos">Conocimientos</a>
+                        <a href="proyectos.html" class="active" data-i18n="nav-proyectos">Proyectos</a>
                     </div>
                 </div>
-                <a href="acercademi.html" class="nav-link">Acerca de</a>
-                <a href="contacto.html" class="nav-link">Contacto</a>
-                      <div class="nav-social">
+                <a href="acercademi.html" class="nav-link" data-i18n="nav-acercade">Acerca de</a>
+                <a href="contacto.html" class="nav-link" data-i18n="nav-contacto">Contacto</a>
+                <div class="nav-social">
                     <a href="https://www.facebook.com/mario.marquesvara/" class="nav-social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                     <a href="https://www.instagram.com/mario_edgar_marquez_vara/" class="nav-social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                 </div>
+                <div class="language-toggle-container"></div>
             </nav>
         </div>
     </header>
@@ -34,10 +35,10 @@
     <main class="main">
         <div class="container">
             <section class="hero">
-                <h1 class="hero-title">Proyectos</h1>
-                <h2 class="hero-subtitle">Trabajos destacados</h2>
-                <p class="item-description" style="max-width: 800px; margin: 0 auto;">
-                    Una selección de mis proyectos más relevantes, donde he aplicado 
+                <h1 class="hero-title" data-i18n="proj-title">Proyectos</h1>
+                <h2 class="hero-subtitle" data-i18n="proj-subtitle">Trabajos destacados</h2>
+                <p class="item-description" data-i18n="proj-description" style="max-width: 800px; margin: 0 auto;">
+                    Una selección de mis proyectos más relevantes, donde he aplicado
                     mis conocimientos y creatividad para lograr resultados excepcionales.
                 </p>
             </section>
@@ -49,37 +50,38 @@
                         <img src="images/LogoSIA.png" alt="Desarrollo de reconocimiento de alimentos">
                     </div>
                     <div class="project-content">
-                        <h3 class="item-title">Desarrollo de reconocimiento de alimentos</h3>
-                        <h4 class="item-subtitle">SazonIA</h4>
-                        <p class="item-description">
-                            Desarrollo de una aplicación móvil con mi equipo de reconocimientos de alimentos con IA para tener recetas con los alimentos a la mano con un modelo entrenado por el equipo en python
+                        <h3 class="item-title" data-i18n="proj-1-title">Desarrollo de reconocimiento de alimentos</h3>
+                        <h4 class="item-subtitle" data-i18n="proj-1-subtitle">SazonIA</h4>
+                        <p class="item-description" data-i18n="proj-1-desc">
+                            Desarrollo de una aplicación móvil con mi equipo de reconocimientos de alimentos con IA para
+                            tener recetas con los alimentos a la mano con un modelo entrenado por el equipo en python
                         </p>
                         <div class="project-tags">
-                            <span class="project-tag">IA</span>
-                            <span class="project-tag">Aplicación Móvil</span>
-                            <span class="project-tag">Reconocimiento de Alimentos</span>
+                            <span class="project-tag" data-i18n="eti-7">IA</span>
+                            <span class="project-tag" data-i18n="eti-5">Aplicación Móvil</span>
+                            <span class="project-tag" data-i18n="eti-6">Reconocimiento de Alimentos</span>
                             <span class="project-tag">Python</span>
-                            <span class="project-tag">Trabajo en Equipo</span>
-                           
+                            <span class="project-tag" data-i18n="eti-1">Trabajo en Equipo</span>
                         </div>
                     </div>
                 </div>
 
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="images/logoreciban.jpeg" alt="Desarrollo de una aplicación web para control y gestión de ">
+                        <img src="images/logoreciban.jpeg" alt="Desarrollo de aplicación web">
                     </div>
                     <div class="project-content">
-                        <h3 class="item-title">Desarrollo de una aplicación web para control y gestión de residuos de plátano</h3>
-                        <h4 class="item-subtitle">Reciban</h4>
-                        <p class="item-description">
-                            Desarrollo de una aplicación web para control y gestión de residuos de plátano con un diseño intuitivo y agradable al usuario.
+                        <h3 class="item-title" data-i18n="proj-2-title">Desarrollo de una aplicación web para control y gestión de residuos de plátano</h3>
+                        <h4 class="item-subtitle" data-i18n="proj-2-subtitle">Reciban</h4>
+                        <p class="item-description" data-i18n="proj-2-desc">
+                            Desarrollo de una aplicación web para control y gestión de residuos de plátano con un diseño
+                            intuitivo y agradable al usuario.
                         </p>
                         <div class="project-tags">
                             <span class="project-tag">HTML5 & CSS3</span>
                             <span class="project-tag">JavaScript</span>
                             <span class="project-tag">Spring Boot</span>
-                            <span class="project-tag">Prototipado</span>
+                            <span class="project-tag" data-i18n="eti-8">Prototipado</span>
                         </div>
                     </div>
                 </div>
@@ -89,33 +91,53 @@
                         <img src="images/logomsp.png" alt="Diseño de App">
                     </div>
                     <div class="project-content">
-                        <h3 class="item-title">Diseño de App Móvil para gestión de inventario de metales y materiales eléctricos</h3>
-                        <h4 class="item-subtitle">MetalStack Pro</h4>
-                        <p class="item-description">
-                            Diseño de la funcionalidad y interfaz de usuario para aplicación móvil de gestión de inventarios que exporta a excel los resultados.
+                        <h3 class="item-title" data-i18n="proj-3-title">Diseño de App Móvil para gestión de inventario de metales y materiales eléctricos</h3>
+                        <h4 class="item-subtitle" data-i18n="proj-3-subtitle">MetalStack Pro</h4>
+                        <p class="item-description" data-i18n="proj-3-desc">
+                            Diseño de la funcionalidad y interfaz de usuario para aplicación móvil de gestión de
+                            inventarios que exporta a excel los resultados.
                         </p>
                         <div class="project-tags">
                             <span class="project-tag">UX/UI</span>
                             <span class="project-tag">App Design</span>
-                            <span class="project-tag">Prototipado</span>
+                            <span class="project-tag" data-i18n="eti-8">Prototipado</span>
                         </div>
                     </div>
                 </div>
 
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="images/interprete.png" alt="Sitio Web Corporativo">
+                        <img src="images/interprete.png" alt="Intérprete">
                     </div>
                     <div class="project-content">
-                        <h3 class="item-title">Intérprete por medio de expresiones regulares</h3>
-                        <h4 class="item-subtitle">Proyecto Académico</h4>
-                        <p class="item-description">
-                            Desarrollo de una aplicación java para interpretar expresiones regulares con una interfaz gráfica sencilla y funcional para ayudar a tener mejor ortografía dirigida a primarias.
+                        <h3 class="item-title" data-i18n="proj-4-title">Intérprete por medio de expresiones regulares</h3>
+                        <h4 class="item-subtitle" data-i18n="proj-4-subtitle">Proyecto Académico</h4>
+                        <p class="item-description" data-i18n="proj-4-desc">
+                            Desarrollo de una aplicación java para interpretar expresiones regulares con una interfaz
+                            gráfica sencilla y funcional para ayudar a tener mejor ortografía dirigida a primarias.
                         </p>
                         <div class="project-tags">
                             <span class="project-tag">Java</span>
-                            <span class="project-tag">Desarrollo</span>
-                            <span class="project-tag">Intérprete</span>
+                            <span class="project-tag" data-i18n="eti-2">Desarrollo</span>
+                            <span class="project-tag" data-i18n="eti-4">Intérprete</span>
+                        </div>
+                    </div>
+                </div>
+                  <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/IMG-20240131-WA0003.jpg" alt="Pastillero">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="item-title" data-i18n="proj-5-title">Dispensador automático de pastillas con alarma</h3>
+                        <h4 class="item-subtitle" data-i18n="proj-5-subtitle">Proyecto Académico</h4>
+                        <p class="item-description" data-i18n="proj-5-desc">
+                            Desarrollo de un dispositivo físico que dispensa pastillas automáticamente y que avisa con una alarma para recordar a las personas de la tercera edad tomar sus medicamentos. Tambien cuenta con un botón de emergencia para avisar a un familiar o contacto en caso de que la persona necesite ayuda. Este proyecto se llevó a cabo con el uso de Arduino IDE para programar el dispositivo y se presentó como parte de un proyecto académico en el ITST.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">Arduino</span>
+                            <span class="project-tag" data-i18n="eti-2">Desarrollo</span>
+                            <span class="project-tag" data-i18n="eti-3">Electrónica</span>
+                            
                         </div>
                     </div>
                 </div>
@@ -125,7 +147,7 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Mario Edgar Marquez Vara. Todos los derechos reservados.</p>
+            <p>&copy; 2026 Mario Edgar Marquez Vara. <span data-i18n="footer-rights">Todos los derechos reservados.</span></p>
         </div>
     </footer>
 </body>

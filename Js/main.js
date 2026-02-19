@@ -1,6 +1,7 @@
 // js/main.js
 import { initDropdown, initMobileDropdown } from './dropdown.js';
 import { initPortfolioEffects, initSmoothScroll } from './portfolio-effects.js';
+import { initLanguage } from './language.js';
 
 // Inicializar cuando el DOM esté completamente cargado
 document.addEventListener('DOMContentLoaded', function() {
@@ -18,6 +19,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Inicializar dropdown para móviles
     initMobileDropdown();
     
+    // Inicializar el sistema de idiomas
+    initLanguage();
+    
     // Detectar cambios en el tamaño de la ventana
     window.addEventListener('resize', function() {
         initMobileDropdown();
@@ -25,4 +29,4 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // Exportar todas las funciones por si se necesitan individualmente
-export { initDropdown, initMobileDropdown, initPortfolioEffects, initSmoothScroll };
+export { initDropdown, initMobileDropdown, initPortfolioEffects, initSmoothScroll, initLanguage };

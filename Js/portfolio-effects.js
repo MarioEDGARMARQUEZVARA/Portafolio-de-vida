@@ -37,13 +37,11 @@ export function initPortfolioEffects() {
     }
 }
 
-// Efecto de scroll suave para enlaces internos
 export function initSmoothScroll() {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             const href = this.getAttribute('href');
             
-            // Solo aplicar scroll suave para enlaces internos
             if (href.startsWith('#')) {
                 e.preventDefault();
                 const targetId = href.substring(1);

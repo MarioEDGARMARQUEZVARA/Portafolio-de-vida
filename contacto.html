@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto - Mario Edgar Marquez Vara</title>
+    <title data-i18n="contact-title">Contacto - Mario Edgar Marquez Vara</title>
     <link rel="stylesheet" href="css/contacto.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script type="module" src="js/main.js"></script>
@@ -14,70 +14,75 @@
             <a href="home.html" class="logo">MEMV</a>
             <nav class="nav">
                 <div class="nav-item">
-                    <a href="portafolio.html" class="nav-link">Portafolio</a>
+                    <a href="portafolio.html" class="nav-link" data-i18n="nav-portafolio">Portafolio</a>
                     <div class="dropdown">
-                        <a href="experiencias.html">Experiencias</a>
-                        <a href="conocimientos.html">Conocimientos</a>
-                        <a href="proyectos.html">Proyectos</a>
+                        <a href="experiencias.html" data-i18n="nav-experiencias">Experiencias</a>
+                        <a href="conocimientos.html" data-i18n="nav-conocimientos">Conocimientos</a>
+                        <a href="proyectos.html" data-i18n="nav-proyectos">Proyectos</a>
                     </div>
                 </div>
-                <a href="acercademi.html" class="nav-link">Acerca de</a>
-                <a href="contacto.html" class="nav-link active">Contacto</a>
+                <a href="acercademi.html" class="nav-link" data-i18n="nav-acercade">Acerca de</a>
+                <a href="contacto.html" class="nav-link active" data-i18n="nav-contacto">Contacto</a>
                 <div class="nav-social">
                     <a href="https://www.facebook.com/mario.marquesvara/" class="nav-social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                     <a href="https://www.instagram.com/mario_edgar_marquez_vara/" class="nav-social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                 </div>
+                <div class="language-toggle-container"></div>
             </nav>
         </div>
     </header>
+    
+    <a href="https://w.app/atflpt" class="whatsapp-float" target="_blank" aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
     <main class="main">
         <div class="container">
             <section class="contact-section">
-                <h1 class="contact-title">Contacto</h1>
-                
+                <h1 class="contact-title" data-i18n="contact-title">Contacto</h1>
+
                 <div class="contact-representation">
-                    <p class="representation-text">Mario Edgar Marquez Vara está representando al ITST</p>
+                    <p class="representation-text" data-i18n="contact-representation">Toda la información acerca de como contactar con su servidor Mario Edgar Marquez Vara</p>
                 </div>
 
                 <div class="contact-info">
                     <div class="contact-details">
-                        <p><strong>Email:</strong> marioedgarmarquezvara@gmail.com</p>
-                        <p><strong>Tel:</strong> +52 231-180-77-04</p>
+                        <p><strong data-i18n="contact-email">Email:</strong> marioedgarmarquezvara@gmail.com</p>
+                        <p><strong data-i18n="contact-phone">Tel:</strong> +52 231-180-77-04</p>
                     </div>
                 </div>
 
                 <form class="contact-form">
                     <div class="form-row">
                         <div class="form-group">
-                            <p>Nombre:</p>
+                            <p data-i18n="contact-firstname">Nombre:</p>
                             <p>Mario Edgar</p>
                         </div>
                         <div class="form-group">
-                            <p>Apellido:</p>
+                            <p data-i18n="contact-lastname">Apellido:</p>
                             <p>Marquez Vara</p>
                         </div>
                     </div>
 
                     <div class="form-row">
                         <div class="form-group">
-                            <p>Email:</p>
+                            <p data-i18n="contact-email">Email:</p>
                             <p>marioedgarmarquezvara@gmail.com</p>
                         </div>
                         <div class="form-group">
-                            <p>Télefono:</p>
+                            <p data-i18n="contact-phone">Télefono:</p>
                             <p>+52 231-180-77-04</p>
                         </div>
                     </div>
 
                     <div class="form-group">
-                       <p>Competente en:</p>
-                       <p>Desarrollo web, desarrollo de software, desarrollo de aplicaciones móviles, administrador de base de datos, gestor de proyectos</p>
+                        <p data-i18n="contact-competent">Competente en:</p>
+                        <p data-i18n="contact-skills">Desarrollo web, desarrollo de software, desarrollo de aplicaciones móviles, administrador de base de datos, gestor de proyectos</p>
                     </div>
 
                     <div class="form-group">
-                        <p>Nota:</p>
-                        <p>De preferencia contactar por email o por medio de Whatsapp o mensaje de texto.</p>
+                        <p data-i18n="contact-note">Nota:</p>
+                        <p data-i18n="contact-note-text">De preferencia contactar por email o por medio de Whatsapp o mensaje de texto.</p>
                     </div>
                 </form>
             </section>
@@ -86,7 +91,7 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Mario Edgar Marquez Vara. Todos los derechos reservados.</p>
+            <p>&copy; 2026 Mario Edgar Marquez Vara. <span data-i18n="footer-rights">Todos los derechos reservados.</span></p>
         </div>
     </footer>
 </body>
