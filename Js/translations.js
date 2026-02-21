@@ -8,16 +8,16 @@ export const translations = {
         "nav-proyectos": "Proyectos",
         "nav-acercade": "Acerca de",
         "nav-contacto": "Contacto",
-        
+
         // Home
         "home-title": "Mario Edgar Marquez Vara",
         "home-subtitle": "Portafolio de vida",
-        
+
         // Acerca de
         "about-title": "Biografía",
         "about-text-1": "Mi nombre es Mario Edgar Marquez Vara, tengo 22 años y actualmente soy egresado de la carrera de Ingenieria en Sistemas Computacionales en el Instituto Tecnologico Superior de Teziutlan, Puebla. Naci en Teziutlán, Puebla un 10 de octubre de 2003. Soy una persona apasionada por la tecnología del futuro y el desarrollo de software, siempre buscando aprender y mejorar mis habilidades en el campo de la programación.",
         "about-text-2": "Actualmente me encuentro en búsqueda de oportunidades laborales para aplicar mis conocimientos y seguir creciendo profesionalmente. Me considero una persona proactiva, con habilidades de trabajo en equipo y siempre dispuesto a enfrentar nuevos desafíos. Mi objetivo es contribuir al desarrollo de soluciones innovadoras y eficientes en el ámbito tecnológico. Actualmente me es imposible viajar a otros paises o estados por esa razon mi prioridad son los trabajos remotos.",
-        
+
         // Contacto
         "contact-title": "Contacto",
         "contact-representation": "Toda la información acerca de como contactar con su servidor Mario Edgar Marquez Vara",
@@ -29,7 +29,7 @@ export const translations = {
         "contact-note": "Nota:",
         "contact-note-text": "De preferencia contactar por email o por medio de Whatsapp o mensaje de texto.",
         "contact-skills": "Desarrollo web, desarrollo de software, desarrollo de aplicaciones móviles, administrador de base de datos, gestor de proyectos",
-        
+
         // Portafolio
         "portfolio-title": "Trabajo reciente",
         "portfolio-experiencias": "Experiencias",
@@ -38,8 +38,10 @@ export const translations = {
         "portfolio-conocimientos-desc": "Lenguajes de programación en los que tengo experiencia",
         "portfolio-proyectos": "Proyectos",
         "portfolio-proyectos-desc": "Proyectos en los que he participado con mi equipo de trabajo",
-        "portfolio-view": "Ver",
-        
+        "portfolio-view-experiencias": "Ver experiencias <i class='fas fa-arrow-right'></i>",
+        "portfolio-view-conocimientos": "Ver conocimientos <i class='fas fa-arrow-right'></i>",
+        "portfolio-view-proyectos": "Ver proyectos <i class='fas fa-arrow-right'></i>",
+
         // Experiencias
         "exp-title": "Experiencias",
         "exp-subtitle": "Mi trayectoria profesional",
@@ -59,7 +61,7 @@ export const translations = {
         "exp-5-title": "Participación en exposición de proyectos en la Casa de la cultura",
         "exp-5-subtitle": "Teziutlán, Puebla | Mayo 2025",
         "exp-5-desc": "Exposición de un proyecto de una aplicación móvil para hacer recetas con los ingredientes disponibles en el hogar o a la mano por medio de identificación con la ayuda de un modelo de IA entrenado con un diccionario de datos en python. Esta exposición se llevó a cabo en la Casa de la Cultura de Teziutlán, lo que me permitió compartir el proyecto con un público más amplio y diverso, incluyendo a miembros de la comunidad local, lo que enriqueció aún más la experiencia y el impacto del proyecto.",
-        
+
         // Conocimientos
         "know-title": "Conocimientos",
         "know-subtitle": "Habilidades y competencias",
@@ -76,7 +78,7 @@ export const translations = {
         "know-concept": "Concepto",
         "know-level": "Nivel",
         "know-mastery": "Dominio",
-        
+
         // Proyectos
         "proj-title": "Proyectos",
         "proj-subtitle": "Trabajos destacados",
@@ -106,8 +108,8 @@ export const translations = {
         "eti-8": "Prototipado",
 
         // Footer
-        "footer-rights": "Todos los derechos reservados.",
-        
+        "footer-rights": "&copy; 2026 Mario Edgar Marquez Vara. Todos los derechos reservados.",
+
         // Skills
         "skill-ps": "Adobe Photoshop",
         "skill-ai": "Adobe Illustrator",
@@ -182,7 +184,96 @@ export const translations = {
         "skill-ssh": "SSH",
         "skill-ftp": "FTP",
         "skill-tls": "TLS",
-        "skill-vpn": "VPN"
+        "skill-vpn": "VPN",
+
+        "nav-certificados": "Certificados",
+        "certs-title": "Certificados",
+        "certs-subtitle": "Mi formación académica y profesional",
+        "certs-description": "A continuación se presentan los certificados que avalan mi formación continua y participación en diversos eventos académicos y profesionales.",
+        "cert-view": "Ver PDF",
+        "cert-download": "Descargar",
+        "cert-1-title": "Intercambio virtual con EAN Colombia",
+        "cert-1-subtitle": "Escuela de Administración de Negocios (EAN)",
+        "cert-1-desc": "Participación en intercambio virtual de estudiantes con la EAN en Bogotá, Colombia. Colaboración en proyectos internacionales y desarrollo de habilidades interculturales.",
+        "cert-2-title": "Coding Cup TecNM 2024",
+        "cert-2-subtitle": "Tecnológico Nacional de México",
+        "cert-2-desc": "Participación en torneo de programación Coding Cup, compitiendo en desafíos de codificación y resolución de problemas con estudiantes de diferentes tecnológicos.",
+        "cert-3-title": "Exposición de Proyectos - Intérprete",
+        "cert-3-subtitle": "ITST - Primera Exposición",
+        "cert-3-desc": "Reconocimiento por la exposición del proyecto 'Intérprete por medio de expresiones regulares' para mejorar la ortografía de niños de primaria.",
+        "cert-4-title": "Exposición de Proyectos - Reciban",
+        "cert-4-subtitle": "ITST - Segunda Exposición",
+        "cert-4-desc": "Reconocimiento por la exposición del proyecto 'Reciban', aplicación web para gestión de residuos de plátano con Spring Boot.",
+        "cert-5-title": "Exposición - SazonIA",
+        "cert-5-subtitle": "Casa de la Cultura Teziutlán",
+        "cert-5-desc": "Reconocimiento por la exposición del proyecto 'SazonIA', aplicación móvil con IA para reconocimiento de alimentos y recetas.",
+        "cert-6-title": "Título en Ingeniería en Sistemas",
+        "cert-6-subtitle": "Instituto Tecnológico Superior de Teziutlán",
+        "cert-6-desc": "Título profesional como Ingeniero en Sistemas Computacionales, con especialización en desarrollo de software y tecnologías de la información.",
+        "cert-7-title": "Certificación en Inglés",
+        "cert-7-subtitle": "Nivel B1 - Intermedio",
+        "cert-7-desc": "Certificación que acredita competencias en comprensión y expresión oral y escrita del idioma inglés a nivel intermedio avanzado.",
+        "cert-8-title": "Certificación Scrum Master",
+        "cert-8-subtitle": "Metodologías Ágiles",
+        "cert-8-desc": "Certificación en metodologías ágiles y roles de Scrum, incluyendo gestión de proyectos y trabajo colaborativo.",
+        "cert-9-title": "Certificado Ideas para crecer tu negocio",
+        "cert-9-subtitle": "Desarrollo empresarial",
+        "cert-9-desc": "Curso de capacitación para el empleo de la fundación Carlos Slim sobre ideas para crecer tu negocio, con enfoque en estrategias de crecimiento y desarrollo empresarial.",
+        "cert-10-title": "Certificado Administrador de servidores",
+        "cert-10-subtitle": "Complemento para ubuntu",
+        "cert-10-desc": "Curso de capacitación para el empleo de la fundación Carlos Slim sobre administración de servidores en ubuntu.",
+        "cert-11-title": "Certificado Mercadotecnia digital",
+        "cert-11-subtitle": "Complemento para negocios",
+        "cert-11-desc": "Curso de capacitación para el empleo de la fundación Carlos Slim sobre mercadotecnia digital.",
+        "cert-12-title": "Certificado Evaluación de ideas de negocios",
+        "cert-12-subtitle": "Complemento para negocios",
+        "cert-12-desc": "Curso de capacitación para el empleo de la fundación Carlos Slim sobre evaluación de ideas de negocios.",
+        "cert-13-title": "Certificado Comercio digital",
+        "cert-13-subtitle": "Complemento para negocios",
+        "cert-13-desc": "Curso de capacitación para el empleo de la fundación Carlos Slim sobre comercio digital.",
+        "cert-14-title": "Certificado Fundamentos de virtualización",
+        "cert-14-subtitle": "Complemento para virtualización",
+        "cert-14-desc": "Curso de capacitación para el empleo de la fundación Carlos Slim sobre fundamentos de virtualización.",
+        "cert-15-title": "Certificado Analista de optimización en motores de búsqueda (SEO)",
+        "cert-15-subtitle": "Complemento para SEO",
+        "cert-15-desc": "Curso de capacitación para el empleo de la fundación Carlos Slim sobre optimización en motores de búsqueda.",
+        "date-ean": "<i class=\"far fa-calendar-alt\"></i> 29/04/24 - 10/06/24",
+        "month-1-2023": "<i class=\"far fa-calendar-alt\"></i> Enero 2023",
+        "month-2-2023": "<i class=\"far fa-calendar-alt\"></i> Febrero 2023",
+        "month-3-2023": "<i class=\"far fa-calendar-alt\"></i> Marzo 2023",
+        "month-4-2023": "<i class=\"far fa-calendar-alt\"></i> Abril 2023",
+        "month-5-2023": "<i class=\"far fa-calendar-alt\"></i> Mayo 2023",
+        "month-6-2023": "<i class=\"far fa-calendar-alt\"></i> Junio 2023",
+        "month-7-2023": "<i class=\"far fa-calendar-alt\"></i> Julio 2023",
+        "month-8-2023": "<i class=\"far fa-calendar-alt\"></i> Agosto 2023",
+        "month-9-2023": "<i class=\"far fa-calendar-alt\"></i> Septiembre 2023",
+        "month-10-2023": "<i class=\"far fa-calendar-alt\"></i> Octubre 2023",
+        "month-11-2023": "<i class=\"far fa-calendar-alt\"></i> Noviembre 2023",
+        "month-12-2023": "<i class=\"far fa-calendar-alt\"></i> Diciembre 2023",
+        "month-1-2024": "<i class=\"far fa-calendar-alt\"></i> Enero 2024",
+        "month-2-2024": "<i class=\"far fa-calendar-alt\"></i> Febrero 2024",
+        "month-3-2024": "<i class=\"far fa-calendar-alt\"></i> Marzo 2024",
+        "month-4-2024": "<i class=\"far fa-calendar-alt\"></i> Abril 2024",
+        "month-5-2024": "<i class=\"far fa-calendar-alt\"></i> Mayo 2024",
+        "month-6-2024": "<i class=\"far fa-calendar-alt\"></i> Junio 2024",
+        "month-7-2024": "<i class=\"far fa-calendar-alt\"></i> Julio 2024",
+        "month-8-2024": "<i class=\"far fa-calendar-alt\"></i> Agosto 2024",
+        "month-9-2024": "<i class=\"far fa-calendar-alt\"></i> Septiembre 2024",
+        "month-10-2024": "<i class=\"far fa-calendar-alt\"></i> Octubre 2024",
+        "month-11-2024": "<i class=\"far fa-calendar-alt\"></i> Noviembre 2024",
+        "month-12-2024": "<i class=\"far fa-calendar-alt\"></i> Diciembre 2024",
+        "month-1": "<i class=\"far fa-calendar-alt\"></i> Enero 2025",
+        "month-2": "<i class=\"far fa-calendar-alt\"></i> Febrero 2025",
+        "month-3": "<i class=\"far fa-calendar-alt\"></i> Marzo 2025",
+        "month-4": "<i class=\"far fa-calendar-alt\"></i> Abril 2025",
+        "month-5": "<i class=\"far fa-calendar-alt\"></i> Mayo 2025",
+        "month-6": "<i class=\"far fa-calendar-alt\"></i> Junio 2025",
+        "month-7": "<i class=\"far fa-calendar-alt\"></i> Julio 2025",
+        "month-8": "<i class=\"far fa-calendar-alt\"></i> Agosto 2025",
+        "month-9": "<i class=\"far fa-calendar-alt\"></i> Septiembre 2025",
+        "month-10": "<i class=\"far fa-calendar-alt\"></i> Octubre 2025",
+        "month-11": "<i class=\"far fa-calendar-alt\"></i> Noviembre 2025",
+        "month-12": "<i class=\"far fa-calendar-alt\"></i> Diciembre 2025"
     },
     en: {
         // Header
@@ -192,16 +283,16 @@ export const translations = {
         "nav-proyectos": "Projects",
         "nav-acercade": "About",
         "nav-contacto": "Contact",
-        
+
         // Home
         "home-title": "Mario Edgar Marquez Vara",
         "home-subtitle": "Life Portfolio",
-        
+
         // Acerca de
         "about-title": "Biography",
         "about-text-1": "My name is Mario Edgar Marquez Vara, I am 22 years old and I am a graduate of Computer Systems Engineering at the Instituto Tecnologico Superior de Teziutlan, Puebla. I was born in Teziutlán, Puebla on October 10, 2003. I am passionate about future technology and software development, always seeking to learn and improve my programming skills.",
         "about-text-2": "I am currently looking for job opportunities to apply my knowledge and continue growing professionally. I consider myself a proactive person with teamwork skills and always willing to face new challenges. My goal is to contribute to the development of innovative and efficient solutions in the technological field. Currently, I cannot travel to other countries or states, so my priority is remote work.",
-        
+
         // Contacto
         "contact-title": "Contact",
         "contact-representation": "All information about how to contact Mario Edgar Marquez Vara",
@@ -213,7 +304,7 @@ export const translations = {
         "contact-note": "Note:",
         "contact-note-text": "Preferably contact by email or via WhatsApp or text message.",
         "contact-skills": "Web development, software development, mobile app development, database administrator, project manager",
-        
+
         // Portafolio
         "portfolio-title": "Recent Work",
         "portfolio-experiencias": "Experiences",
@@ -222,8 +313,10 @@ export const translations = {
         "portfolio-conocimientos-desc": "Programming languages I have experience in",
         "portfolio-proyectos": "Projects",
         "portfolio-proyectos-desc": "Projects I have participated in with my work team",
-        "portfolio-view": "View",
-        
+        "portfolio-view-experiencias": "View experiences <i class='fas fa-arrow-right'></i>",
+        "portfolio-view-conocimientos": "View skills <i class='fas fa-arrow-right'></i>",
+        "portfolio-view-proyectos": "View projects<i class='fas fa-arrow-right'></i>",
+
         // Experiencias
         "exp-title": "Experiences",
         "exp-subtitle": "My professional journey",
@@ -243,7 +336,7 @@ export const translations = {
         "exp-5-title": "Project exhibition at Casa de la Cultura",
         "exp-5-subtitle": "Teziutlán, Puebla | May 2025",
         "exp-5-desc": "Exhibition of a mobile app project for making recipes with available ingredients at home or on hand through identification with the help of an AI model trained with a data dictionary in Python. This exhibition took place at the Casa de la Cultura in Teziutlán, allowing me to share the project with a wider and more diverse audience, including members of the local community, which further enriched the experience and impact of the project.",
-        
+
         // Conocimientos
         "know-title": "Skills",
         "know-subtitle": "Abilities and competencies",
@@ -260,7 +353,7 @@ export const translations = {
         "know-concept": "Concept",
         "know-level": "Level",
         "know-mastery": "Mastery",
-        
+
         // Proyectos
         "proj-title": "Projects",
         "proj-subtitle": "Featured Work",
@@ -289,8 +382,8 @@ export const translations = {
         "eti-7": "AI",
         "eti-8": "Prototiper",
         // Footer
-        "footer-rights": "All rights reserved.",
-        
+        "footer-rights": "&copy; 2026 Mario Edgar Marquez Vara. All rights reserved.",
+
         // Skills
         "skill-ps": "Adobe Photoshop",
         "skill-ai": "Adobe Illustrator",
@@ -365,6 +458,95 @@ export const translations = {
         "skill-ssh": "SSH",
         "skill-ftp": "FTP",
         "skill-tls": "TLS",
-        "skill-vpn": "VPN"
+        "skill-vpn": "VPN",
+
+        "nav-certificados": "Certificates",
+        "certs-title": "Certificates",
+        "certs-subtitle": "My Academic and Professional Training",
+        "certs-description": "The following certificates attest to my continuing education and participation in various academic and professional events.",
+        "cert-view": "View PDF",
+        "cert-download": "Download",
+        "cert-1-title": "Virtual Exchange with EAN Colombia",
+        "cert-1-subtitle": "School of Business Administration (EAN)",
+        "cert-1-desc": "Participation in a virtual student exchange with EAN in Bogotá, Colombia. Collaboration on international projects and development of intercultural skills.",
+        "cert-2-title": "Coding Cup TecNM 2024",
+        "cert-2-subtitle": "National Technological Institute of Mexico",
+        "cert-2-desc": "Participation in the Coding Cup programming tournament, competing in coding and problem-solving challenges with students from different technological.",
+        "cert-3-title": "Project Exhibition - Interpreter",
+        "cert-3-subtitle": "ITST - First Exhibition",
+        "cert-3-desc": "Recognition for the exhibition of the project 'Interpreter using regular expressions' to improve the spelling of elementary school children.",
+        "cert-4-title": "Project Exhibition - Reciban",
+        "cert-4-subtitle": "ITST - Second Exhibition",
+        "cert-4-desc": "Recognition for the exhibition of the project 'Reciban', a web application for banana waste management with Spring Boot.",
+        "cert-5-title": "Exhibition - SazonIA",
+        "cert-5-subtitle": "Teziutlán House of Culture",
+        "cert-5-desc": "Recognition for the exhibition of the project 'SazonIA', a mobile application with AI for food and recipe recognition.",
+        "cert-6-title": "Title in Engineering in Systems",
+        "cert-6-subtitle": "Teziutlán Higher Technological Institute",
+        "cert-6-desc": "Professional degree as a Computer Systems Engineer, specializing in software development and information technologies.",
+        "cert-7-title": "English Certification",
+        "cert-7-subtitle": "Level B1 - Upper Intermediate",
+        "cert-7-desc": "Certification that accredits competence in understanding and oral and written expression of the English language at an upper intermediate level.",
+        "cert-8-title": "Scrum Master Certification",
+        "cert-8-subtitle": "Agile Methodologies",
+        "cert-8-desc": "Certification in agile methodologies and Scrum roles, including project management and collaborative work.",
+        "cert-9-title": "Certificate Ideas to grow your business",
+        "cert-9-subtitle": "Business Development",
+        "cert-9-desc": "Training course for employment from the Carlos Slim Foundation on ideas to grow your business, focusing on growth strategies and business development.",
+        "cert-10-title": "Certificate Server Administrator",
+        "cert-10-subtitle": "Ubuntu Complement",
+        "cert-10-desc": "Training course for employment from the Carlos Slim Foundation on server administration in Ubuntu.",
+        "cert-11-title": "Certificate Digital Marketing",
+        "cert-11-subtitle": "Business Complement",
+        "cert-11-desc": "Training course for employment from the Carlos Slim Foundation on digital marketing.",
+        "cert-12-title": "Certificate Evaluation of business ideas",
+        "cert-12-subtitle": "Business Complement",
+        "cert-12-desc": "Training course for employment from the Carlos Slim Foundation on evaluation of business ideas.",
+        "cert-13-title": "Certificate Digital Commerce",
+        "cert-13-subtitle": "Business Complement",
+        "cert-13-desc": "Training course for employment from the Carlos Slim Foundation on digital commerce.",
+        "cert-14-title": "Certificate Fundamentals of Virtualization",
+        "cert-14-subtitle": "Virtualization Complement",
+        "cert-14-desc": "Training course for employment from the Carlos Slim Foundation on fundamentals of virtualization.",
+        "cert-15-title": "Certificate Search Engine Optimization (SEO) Analyst",
+        "cert-15-subtitle": "SEO Complement",
+        "cert-15-desc": "Training course for employment from the Carlos Slim Foundation on search engine optimization.",
+        "date-ean": "<i class=\"far fa-calendar-alt\"></i> 04/29/24 - 06/10/24",
+        "month-1-2023": "<i class=\"far fa-calendar-alt\"></i> January 2023",
+        "month-2-2023": "<i class=\"far fa-calendar-alt\"></i> February 2023",
+        "month-3-2023": "<i class=\"far fa-calendar-alt\"></i> March 2023",
+        "month-4-2023": "<i class=\"far fa-calendar-alt\"></i> April 2023",
+        "month-5-2023": "<i class=\"far fa-calendar-alt\"></i> May 2023",
+        "month-6-2023": "<i class=\"far fa-calendar-alt\"></i> June 2023",
+        "month-7-2023": "<i class=\"far fa-calendar-alt\"></i> July 2023",
+        "month-8-2023": "<i class=\"far fa-calendar-alt\"></i> August 2023",
+        "month-9-2023": "<i class=\"far fa-calendar-alt\"></i> September 2023",
+        "month-10-2023": "<i class=\"far fa-calendar-alt\"></i> October 2023",
+        "month-11-2023": "<i class=\"far fa-calendar-alt\"></i> November 2023",
+        "month-12-2023": "<i class=\"far fa-calendar-alt\"></i> December 2023",
+        "month-1-2024": "<i class=\"far fa-calendar-alt\"></i> January 2024",
+        "month-2-2024": "<i class=\"far fa-calendar-alt\"></i> February 2024",
+        "month-3-2024": "<i class=\"far fa-calendar-alt\"></i> March 2024",
+        "month-4-2024": "<i class=\"far fa-calendar-alt\"></i> April 2024",
+        "month-5-2024": "<i class=\"far fa-calendar-alt\"></i> May 2024",
+        "month-6-2024": "<i class=\"far fa-calendar-alt\"></i> June 2024",
+        "month-7-2024": "<i class=\"far fa-calendar-alt\"></i> July 2024",
+        "month-8-2024": "<i class=\"far fa-calendar-alt\"></i> August 2024",
+        "month-9-2024": "<i class=\"far fa-calendar-alt\"></i> September 2024",
+        "month-10-2024": "<i class=\"far fa-calendar-alt\"></i> October 2024",
+        "month-11-2024": "<i class=\"far fa-calendar-alt\"></i> November 2024",
+        "month-12-2024": "<i class=\"far fa-calendar-alt\"></i> December 2024",
+        "month-1": "<i class=\"far fa-calendar-alt\"></i> January 2025",
+        "month-2": "<i class=\"far fa-calendar-alt\"></i> February 2025",
+        "month-3": "<i class=\"far fa-calendar-alt\"></i> March 2025",
+        "month-4": "<i class=\"far fa-calendar-alt\"></i> April 2025",
+        "month-5": "<i class=\"far fa-calendar-alt\"></i> May 2025",
+        "month-6": "<i class=\"far fa-calendar-alt\"></i> June 2025",
+        "month-7": "<i class=\"far fa-calendar-alt\"></i> July 2025",
+        "month-8": "<i class=\"far fa-calendar-alt\"></i> August 2025",
+        "month-9": "<i class=\"far fa-calendar-alt\"></i> September 2025",
+        "month-10": "<i class=\"far fa-calendar-alt\"></i> October 2025",
+        "month-11": "<i class=\"far fa-calendar-alt\"></i> November 2025",
+        "month-12": "<i class=\"far fa-calendar-alt\"></i> December 2025",
     }
 };

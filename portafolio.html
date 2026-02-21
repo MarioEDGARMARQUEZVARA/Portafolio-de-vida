@@ -16,21 +16,23 @@
             <a href="home.html" class="logo">MEMV</a>
             <nav class="nav">
                 <div class="nav-item">
-                    <a href="portafolio.html" class="nav-link active">Portafolio</a>
+                    <a href="portafolio.html" class="nav-link active" data-i18n="nav-portafolio">Portafolio</a>
                     <div class="dropdown">
-                        <a href="experiencias.html">Experiencias</a>
-                        <a href="conocimientos.html">Conocimientos</a>
-                        <a href="proyectos.html">Proyectos</a>
+                        <a href="experiencias.html" data-i18n="nav-experiencias">Experiencias</a>
+                        <a href="conocimientos.html" data-i18n="nav-conocimientos">Conocimientos</a>
+                        <a href="proyectos.html" data-i18n="nav-proyectos">Proyectos</a>
                     </div>
                 </div>
-                <a href="acercademi.html" class="nav-link">Acerca de</a>
-                <a href="contacto.html" class="nav-link">Contacto</a>
+                <a href="certificados.html" class="nav-link" data-i18n="nav-certificados">Certificados</a>
+                <a href="acercademi.html" class="nav-link" data-i18n="nav-acercade">Acerca de</a>
+                <a href="contacto.html" class="nav-link" data-i18n="nav-contacto">Contacto</a>
                 <div class="nav-social">
                     <a href="https://www.facebook.com/mario.marquesvara/" class="nav-social-icon"
                         aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                     <a href="https://www.instagram.com/mario_edgar_marquez_vara/" class="nav-social-icon"
                         aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                 </div>
+                <div class="language-toggle-container"></div>
             </nav>
         </div>
     </header>
@@ -38,7 +40,7 @@
     <main class="main">
         <section class="hero">
             <div class="container">
-                <h1 class="hero-title">Trabajo reciente</h1>
+                <h1 class="hero-title" data-i18n="portfolio-title">Trabajo reciente</h1>
             </div>
         </section>
 
@@ -52,11 +54,12 @@
                                 <img src="images/experiencias.jpg" alt="Experiencias">
                                 <div class="image-overlay"></div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title">Experiencias</h3>
-                                    <p class="portfolio-description">Experiencias desarrollativas que he tenido para
+                                    <h3 class="portfolio-title" data-i18n="portfolio-experiencias">Experiencias</h3>
+                                    <p class="portfolio-description" data-i18n="portfolio-experiencias-desc">
+                                        Experiencias desarrollativas que he tenido para
                                         complementar mis conocimientos</p>
-                                    <span class="portfolio-link-text">Ver experiencias <i
-                                            class="fas fa-arrow-right"></i></span>
+                                    <span class="portfolio-link-text" data-i18n="portfolio-view-experiencias">Ver
+                                        experiencias <i class="fas fa-arrow-right"></i></span>
                                 </div>
                             </div>
                         </a>
@@ -69,11 +72,12 @@
                                 <img src="images/lenguajes.png" alt="Conocimientos">
                                 <div class="image-overlay"></div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title">Conocimientos</h3>
-                                    <p class="portfolio-description">Lenguajes de programación en los que tengo
-                                        experiencia</p>
-                                    <span class="portfolio-link-text">Ver conocimientos <i
-                                            class="fas fa-arrow-right"></i></span>
+                                    <h3 class="portfolio-title" data-i18n="portfolio-conocimientos">Conocimientos</h3>
+                                    <p class="portfolio-description" data-i18n="portfolio-conocimientos-desc">Lenguajes
+                                        de programación en los que tengo
+                                        experiencia.</p>
+                                    <span class="portfolio-link-text" data-i18n="portfolio-view-conocimientos">Ver
+                                        conocimientos <i class="fas fa-arrow-right"></i></span>
                                 </div>
                             </div>
                         </a>
@@ -86,11 +90,12 @@
                                 <img src="images/proyecto.jpg" alt="Proyectos">
                                 <div class="image-overlay"></div>
                                 <div class="portfolio-content">
-                                    <h3 class="portfolio-title">Proyectos</h3>
-                                    <p class="portfolio-description">Proyectos en los que he participado con mi equipo
+                                    <h3 class="portfolio-title" data-i18n="portfolio-proyectos">Proyectos</h3>
+                                    <p class="portfolio-description" data-i18n="portfolio-proyectos-desc">Proyectos en
+                                        los que he participado con mi equipo
                                         de trabajo</p>
-                                    <span class="portfolio-link-text">Ver proyectos <i
-                                            class="fas fa-arrow-right"></i></span>
+                                    <span class="portfolio-link-text" data-i18n="portfolio-view-proyectos">Ver proyectos
+                                        <i class="fas fa-arrow-right"></i></span>
                                 </div>
                             </div>
                         </a>
@@ -102,7 +107,7 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 Mario Edgar Marquez Vara. Todos los derechos reservados.</p>
+            <p data-i18n="footer-rights">&copy; 2026 Mario Edgar Marquez Vara. Todos los derechos reservados.</p>
         </div>
     </footer>
 </body>
