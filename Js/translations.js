@@ -15,7 +15,7 @@ export const translations = {
 
         // Acerca de
         "about-title": "Biografía",
-        "about-text-1": "Mi nombre es Mario Edgar Marquez Vara, tengo 22 años y actualmente soy egresado de la carrera de Ingenieria en Sistemas Computacionales en el Instituto Tecnologico Superior de Teziutlan, Puebla. Naci en Teziutlán, Puebla un 10 de octubre de 2003. Soy una persona apasionada por la tecnología del futuro y el desarrollo de software, siempre buscando aprender y mejorar mis habilidades en el campo de la programación.",
+        "about-text-1": "Mi nombre es Mario Edgar Marquez Vara, tengo 22 años soy egresado de la carrera de Ingenieria en Sistemas Computacionales en el Instituto Tecnologico Superior de Teziutlan, Puebla. Naci en Teziutlán, Puebla un 10 de octubre de 2003. Soy una persona apasionada por la tecnología del futuro y el desarrollo de software, siempre buscando aprender y mejorar mis habilidades en el campo de la programación.Cuento con 1 año de experiencia en desarrollo de software y desarrollo móvil, participando en diversos proyectos.",
         "about-text-2": "Actualmente me encuentro en búsqueda de oportunidades laborales para aplicar mis conocimientos y seguir creciendo profesionalmente. Me considero una persona proactiva, con habilidades de trabajo en equipo y siempre dispuesto a enfrentar nuevos desafíos. Mi objetivo es contribuir al desarrollo de soluciones innovadoras y eficientes en el ámbito tecnológico. Actualmente me es imposible viajar a otros paises o estados por esa razon mi prioridad son los trabajos remotos.",
 
         // Contacto
@@ -209,7 +209,7 @@ export const translations = {
         "cert-5-desc": "Reconocimiento por la exposición del proyecto 'SazonIA', aplicación móvil con IA para reconocimiento de alimentos y recetas.",
         "cert-6-title": "Título en Ingeniería en Sistemas",
         "cert-6-subtitle": "Instituto Tecnológico Superior de Teziutlán",
-        "cert-6-desc": "Título profesional como Ingeniero en Sistemas Computacionales, con especialización en desarrollo de software y tecnologías de la información.",
+        "cert-6-desc": "Título profesional como Ingeniero en Sistemas Computacionales, con especialización en desarrollo de software y desarrollo móvil.",
         "cert-7-title": "Certificación en Inglés",
         "cert-7-subtitle": "Nivel B1 - Intermedio",
         "cert-7-desc": "Certificación que acredita competencias en comprensión y expresión oral y escrita del idioma inglés a nivel intermedio avanzado.",
@@ -290,7 +290,7 @@ export const translations = {
 
         // Acerca de
         "about-title": "Biography",
-        "about-text-1": "My name is Mario Edgar Marquez Vara, I am 22 years old and I am a graduate of Computer Systems Engineering at the Instituto Tecnologico Superior de Teziutlan, Puebla. I was born in Teziutlán, Puebla on October 10, 2003. I am passionate about future technology and software development, always seeking to learn and improve my programming skills.",
+        "about-text-1": "My name is Mario Edgar Marquez Vara, I am 22 years old and I am a graduate of Computer Systems Engineering at the Instituto Tecnologico Superior de Teziutlan, Puebla. I was born in Teziutlán, Puebla on October 10, 2003. I am passionate about future technology and software development, always seeking to learn and improve my programming skills. I have 1 year of experience in software development and mobile development, participating in various projects.",
         "about-text-2": "I am currently looking for job opportunities to apply my knowledge and continue growing professionally. I consider myself a proactive person with teamwork skills and always willing to face new challenges. My goal is to contribute to the development of innovative and efficient solutions in the technological field. Currently, I cannot travel to other countries or states, so my priority is remote work.",
 
         // Contacto
@@ -483,7 +483,7 @@ export const translations = {
         "cert-5-desc": "Recognition for the exhibition of the project 'SazonIA', a mobile application with AI for food and recipe recognition.",
         "cert-6-title": "Title in Engineering in Systems",
         "cert-6-subtitle": "Teziutlán Higher Technological Institute",
-        "cert-6-desc": "Professional degree as a Computer Systems Engineer, specializing in software development and information technologies.",
+        "cert-6-desc": "Professional degree as a Computer Systems Engineer, specializing in software development and mobile development.",
         "cert-7-title": "English Certification",
         "cert-7-subtitle": "Level B1 - Upper Intermediate",
         "cert-7-desc": "Certification that accredits competence in understanding and oral and written expression of the English language at an upper intermediate level.",
